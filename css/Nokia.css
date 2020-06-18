@@ -6,7 +6,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     color: #eee;
 }
 
@@ -72,3 +72,14 @@ h2{
     opacity: 1;
 }
 
+@media screen and (max-width: 600px) {
+    .description{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description{
+        width: 70%;
+    }
+}
