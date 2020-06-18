@@ -681,6 +681,11 @@ form{
 }
 /*Start media queries*/
 @media screen and (max-width: 1024px) {
+    body{
+        background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
     .menu-toggler{
         top: 4rem;
         right: 4rem;
@@ -790,6 +795,11 @@ form{
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    
     .menu-toggler{
         top: 2rem;
         right: 2rem;
