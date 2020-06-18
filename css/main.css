@@ -674,7 +674,7 @@ form{
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     body{
         background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
@@ -789,6 +789,11 @@ form{
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
     .menu-toggler{
         top: 2rem;
         right: 2rem;
