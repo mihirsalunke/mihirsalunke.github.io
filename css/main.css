@@ -673,13 +673,14 @@ form{
 }
 /*End animations*/
 
-/*Start media queries*/
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 200px) and (max-width: 1024px) {
     body{
         background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
     }
-
+}
+/*Start media queries*/
+@media screen and (max-width: 1024px) {
     .menu-toggler{
         top: 4rem;
         right: 4rem;
@@ -726,7 +727,7 @@ form{
     }
 
     .timeline .date::before{
-        left: -20rem;
+        left: -22rem;
     }
 
     .timeline .date::after{
@@ -789,11 +790,6 @@ form{
 }
 
 @media screen and (max-width: 600px) {
-    body{
-        background: url("/media/images/sitebg2.jpg") no-repeat center fixed;
-        background-size: cover;
-    }
-
     .menu-toggler{
         top: 2rem;
         right: 2rem;
