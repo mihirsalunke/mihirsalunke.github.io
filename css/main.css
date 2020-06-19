@@ -1,4 +1,5 @@
 /*Start global*/
+@font-face { font-family: 'MyFont'; src: url(/fonts/comic-sans-ms/COMIC.TTF);}
 
 *{
     margin: 0;
@@ -8,7 +9,8 @@
 
 html{
     font-size: 10px;
-    font-family: "Comic Sans MS", comic, sans-serif;
+    font-family: 'MyFont', comic, sans-serif;
+    /* font-family: "Comic Sans MS", comic, sans-serif; */
     color: #eee;
 }
 
@@ -127,7 +129,7 @@ li{
 }
 
 .nav-link{
-    font-family: "Comic Sans MS", comic, sans-serif;
+    font-family: 'MyFont', comic, sans-serif;
     font-size: 3rem;
     padding: 1rem;
 }
@@ -204,7 +206,7 @@ li{
 
 .landing-text h1{
     font-size: 6rem;
-    font-family: "Comic Sans MS", comic, sans-serif;
+    font-family: 'MyFont', comic, sans-serif;
     background: linear-gradient(to bottom, #ff9238, #72f038);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -220,7 +222,7 @@ li{
 }
 
 .landing-text h6 span{
-    font-family: "Comic Sans MS", comic, sans-serif;
+    font-family: 'MyFont', comic, sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
     /* background: linear-gradient(to top, #ffe838, #fd57bf); */
@@ -402,7 +404,7 @@ li{
 }
 
 .exp-link{
-    font-family: "Comic Sans MS", comic, sans-serif;
+    font-family: 'MyFont', comic, sans-serif;
     font-size: 3rem;
 }
 
