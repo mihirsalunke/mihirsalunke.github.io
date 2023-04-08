@@ -320,6 +320,7 @@ li{
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: 0.3;
+    min-height: 50px;
 }
 
 .skills ul{
@@ -750,6 +751,11 @@ form{
         margin-top: 20px;
         text-align: center;
     }
+
+    .skills h1{
+        min-height: 20px;
+    }
+
     .skill li{
         margin: 5px;
     }
